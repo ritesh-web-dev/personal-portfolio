@@ -1,22 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li class="li" id="li1">HOME</li>
-                <li class="li" id="li2">SKILLS</li>
-                <li class="li" id="li3">ABOUT</li>
-                <li class="li" id="li4">CONTACT</li>
-            </ul>
-        </nav>
+      <nav class="nav">
+        <ul>
+          <div class="logo-container">
+            <div class="logo" id="logo">Ritesh.n</div>
+          </div>
+          <div class="list-items">
+            <li class="li" id="li1">
+              <i class="fa-solid fa-house nav-icons"></i>
+              <a href="#"> HOME </a>
+            </li>
+            <li class="li" id="li2">
+              <i class="fa-solid fa-puzzle-piece nav-icons"></i>
+              <a href="skills.html"> SKILLS </a>
+            </li>
+            <li class="li" id="li3">
+              <i class="fa-solid fa-user-tie nav-icons"></i>
+              <a href="#"> ABOUT </a>
+            </li>
+            <li class="li" id="li4">
+              <i class="fa-solid fa-phone-volume nav-icons"></i>
+              <a href="#"> CONTACT </a>
+            </li>
+          </div>
+          <div class="bar">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+          </div>
+        </ul>
+      </nav>
     </header>
+    <main>
+      <section class="hero-section">
+            <h1 class="hero-heading">FULL-STACK-DEVELOPER</h1>
+            <div class="hero-content-container">
+                <di class="profileImage fadeAnimation">
+                        <img src="./images/myProfile2.jpg" alt="" class="pic fadeAnimation" />
+                </di>
+                <div class="hero-content">
+                        <h2 class="name">RITESH NISHAD</h2>
+                        <p class="sub-heading-hero">
+                            I can help you launch your first website and grow your business
+                            with a full-stack website for your business !
+                        </p>
+                        <button class="get-in-touch fadeAnimation">Get in touch <span><i class="fa-solid fa-arrow-right"></i></span></button>
+                </div>
+            </div>
+      </section>
+      <section class="skills-section">
+        <div class="slider">
+          <div class="lists lists1">
+              <div class="item animate"><img src="./images/node.js.png" alt="technologies_logo"></div>
+              <div class="item animate"><img src="./images/html.png" alt="technologies_logo"></div>
+              <div class="item animate"><img src="./images/mongodb.png" alt="technologies_logo" class="mongodb"></div>
+              <div class="item animate"><img src="./images/react.js.png" alt="technologies_logo"></div>
+              <div class="item animate"><h1 class="skills-text">Frontend</h1></div>
+              <div class="item animate"><img src="./images/css.png" alt="technologies_logo"></div>
+              <div class="item animate"><img src="./images/express.js.png" alt="technologies_logo"></div>
+              <div class="item animate"><img src="./images/javscript.png" alt="technologies_logo"></div>
+              <div class="item animate"><img src="./images/github.png" alt="technologies_logo"></div>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="lists lists2">
+            <div class="item animate"><img src="./images/html.png" alt="technologies_logo"></div>
+            <div class="item animate"><img src="./images/node.js.png" alt="technologies_logo"></div>
+            <div class="item animate"><img src="./images/css.png" alt="technologies_logo"></div>
+            <div class="item animate"><img src="./images/github.png" alt="technologies_logo"></div>
+            <div class="item animate"><h1 class="skills-text">Backend</h1></div>
+            <div class="item animate"><img src="./images/express.js.png" alt="technologies_logo"></div>
+            <div class="item animate"><img src="./images/react.js.png" alt="technologies_logo"></div>
+            <div class="item animate"><img src="./images/javscript.png" alt="technologies_logo"></div>
+            <div class="item animate"><img src="./images/mongodb.png" alt="technologies_logo" class="mongodb"></div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+
+    <script src="https://kit.fontawesome.com/8eb0cc1ffa.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
